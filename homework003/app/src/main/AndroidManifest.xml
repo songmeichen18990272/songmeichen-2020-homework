@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.homework001">
+    package="com.example.homework003">
 
     <application
         android:allowBackup="true"
@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".IconActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".ImageScaleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ClickActivity"
+            android:exported="true" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,4 +27,3 @@
     </application>
 
 </manifest>
-
