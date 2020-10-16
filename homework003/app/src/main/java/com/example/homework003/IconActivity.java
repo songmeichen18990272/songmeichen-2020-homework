@@ -11,28 +11,20 @@ public class IconActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_icon; // 声明一个按钮对象
     private Drawable drawable; // 声明一个图形对象
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_icon);
-
         //从布局文件中获取名叫btn_icon的按钮控件
         btn_icon = findViewById(R.id.btn_icon);
-
         //从资源文件ic_launcher.png中获取图形对象
         drawable = getResources().getDrawable(R.mipmap.ic_launcher);
-
         //设置图形对象的矩形边界大小，注意必须设置图片大小，否则不会显示图片
         drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
-
         // 下面通过四个按钮，分别演示左、上、右、下四个方向的图标效果
         findViewById(R.id.btn_left).setOnClickListener(this);
-
         findViewById(R.id.btn_top).setOnClickListener(this);
-
         findViewById(R.id.btn_right).setOnClickListener(this);
-
         findViewById(R.id.btn_bottom).setOnClickListener(this);
     }
 

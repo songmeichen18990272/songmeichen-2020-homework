@@ -14,7 +14,6 @@ public class ClickActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_click);
-
         //从布局文件中获取名叫btn_click的按钮控件
         Button btn_click = findViewById(R.id.btn_click);
         //给btn_click设置点击监听器，一旦用户点击按钮，就触发监听器的onClick方法
@@ -29,7 +28,6 @@ public class ClickActivity extends AppCompatActivity {
         public void onClick(View v) { //点击事件的处理方法
             if (v.getId() == R.id.btn_click) { //判断是否为btn_Click被点击
                 Toast.makeText(ClickActivity.this, "您点击了控件：" + ((TextView) v).getText(), Toast.LENGTH_SHORT).show();
-
             }
         }
     }
