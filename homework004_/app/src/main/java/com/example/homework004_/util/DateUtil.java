@@ -1,22 +1,13 @@
 package com.example.homework004_.util;
-import android.annotation.SuppressLint;
 
+import android.annotation.SuppressLint;
 import android.text.TextUtils;
 
-
-
 import java.text.SimpleDateFormat;
-
 import java.util.Date;
-
-
-
 @SuppressLint("SimpleDateFormat")
-
 public class DateUtil {
-
     public static String getNowDateTime(String formatStr) {
-
         String format = formatStr;
 
         if (TextUtils.isEmpty(format)) {
