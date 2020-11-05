@@ -23,12 +23,84 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="51e5e5d6-d5a4-460a-bb29-d22d9c5c10b5">
+        <schema name="" object-types="index, table, constraint, dataset trigger, column, view" />
+        <schema name="main" object-types="index, table, constraint, dataset trigger, column, view" />
+      </connection>
+      <connection connection-id="2a4b133f-34be-4c33-992b-29fa8404c7d9">
+        <schema name="main" object-types="index, table, constraint, dataset trigger, column, view" />
+      </connection>
+      <connection connection-id="28fd9526-eee6-4bd2-9c4b-678a179df1ac">
+        <schema name="main" object-types="index, table, constraint, dataset trigger, column, view" />
+      </connection>
+      <connection connection-id="bacea4a2-7431-4ff8-a74b-9011369212b7">
+        <schema name="main" object-types="index, table, constraint, dataset trigger, column, view" />
+      </connection>
+      <connection connection-id="4d396f7f-ea03-4f79-a3c8-cdb34b21112e">
+        <schema name="main" object-types="index, table, constraint, dataset trigger, column, view" />
+      </connection>
+    </loaded-nodes>
+  </component>
+  <component name="DBNavigator.Project.DatabaseConsoleManager">
+    <connection id="51e5e5d6-d5a4-460a-bb29-d22d9c5c10b5">
+      <console name="Connection" type="STANDARD" schema="" session="Main" />
+    </connection>
+    <connection id="2a4b133f-34be-4c33-992b-29fa8404c7d9">
+      <console name="Connection 1" type="STANDARD" schema="main" session="Main" />
+    </connection>
+    <connection id="28fd9526-eee6-4bd2-9c4b-678a179df1ac">
+      <console name="Connection 2" type="STANDARD" schema="main" session="Main" />
+    </connection>
+    <connection id="bacea4a2-7431-4ff8-a74b-9011369212b7">
+      <console name="Connection 3" type="STANDARD" schema="main" session="Main" />
+    </connection>
+    <connection id="4d396f7f-ea03-4f79-a3c8-cdb34b21112e">
+      <console name="Connection 4" type="STANDARD" schema="main" session="Main" />
+    </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="04afb602-dd39-47c4-b867-eb9a06affd5d" object-ref="schemas/main/tables/user_info" />
-    </open-files>
+    <open-files />
+  </component>
+  <component name="DBNavigator.Project.DatabaseSessionManager">
+    <connection id="51e5e5d6-d5a4-460a-bb29-d22d9c5c10b5" />
+    <connection id="2a4b133f-34be-4c33-992b-29fa8404c7d9" />
+    <connection id="28fd9526-eee6-4bd2-9c4b-678a179df1ac" />
+    <connection id="bacea4a2-7431-4ff8-a74b-9011369212b7" />
+    <connection id="4d396f7f-ea03-4f79-a3c8-cdb34b21112e" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="51e5e5d6-d5a4-460a-bb29-d22d9c5c10b5" dataset="main.user_info" active-filter-id="74036d73-20bb-45cb-b3dd-2dfe97d593e2">
+      <filter id="74036d73-20bb-45cb-b3dd-2dfe97d593e2" name="0" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="_id" operator="!=" value="0" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="51e5e5d6-d5a4-460a-bb29-d22d9c5c10b5" dataset=".user_info" active-filter-id="bba9c8f9-50a8-4c3e-b97c-b999afe16976">
+      <filter id="bba9c8f9-50a8-4c3e-b97c-b999afe16976" name="0" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="_id" operator="!=" value="0" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="28fd9526-eee6-4bd2-9c4b-678a179df1ac" dataset="main.user_info" active-filter-id="dbfb2afd-c4fb-4ba1-afc6-7cdb88f8ce69">
+      <filter id="dbfb2afd-c4fb-4ba1-afc6-7cdb88f8ce69" name="0" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="_id" operator="!=" value="0" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="28fd9526-eee6-4bd2-9c4b-678a179df1ac" dataset="main.android_metadata" active-filter-id="" />
+    <filter-actions connection-id="2a4b133f-34be-4c33-992b-29fa8404c7d9" dataset="main.user_info" active-filter-id="dc8cd882-d8b8-4ea7-a5e0-e827e0ba9de4">
+      <filter id="dc8cd882-d8b8-4ea7-a5e0-e827e0ba9de4" name="0" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="_id" operator="!=" value="0" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="bacea4a2-7431-4ff8-a74b-9011369212b7" dataset="main.user_info" active-filter-id="30b50914-3651-44a7-9586-a053f8fc840b">
+      <filter id="30b50914-3651-44a7-9586-a053f8fc840b" name="0" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="_id" operator="!=" value="0" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="4d396f7f-ea03-4f79-a3c8-cdb34b21112e" dataset="main.users" active-filter-id="50f61180-3c1f-472c-b034-704cbbdbad4f">
+      <filter id="50f61180-3c1f-472c-b034-704cbbdbad4f" name="0" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="_id" operator="!=" value="0" active="true" />
+      </filter>
+    </filter-actions>
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -52,7 +124,440 @@
     <recently-used-interfaces />
   </component>
   <component name="DBNavigator.Project.Settings">
-    <connections />
+    <connections>
+      <connection id="51e5e5d6-d5a4-460a-bb29-d22d9c5c10b5" active="true">
+        <database>
+          <name value="Connection" />
+          <description value="" />
+          <database-type value="SQLITE" />
+          <config-type value="BASIC" />
+          <database-version value="3.21" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="FILE" />
+          <host value="localhost" />
+          <port value="1234" />
+          <database value="database" />
+          <files>
+            <file path="C:\Users\hp\Documents\AndroidStudio\DeviceExplorer\emulator-5554\data\data\com.example.homework004_\databases\user.db" schema="main" />
+            <file path="C:\Users\hp\Documents\AndroidStudio\DeviceExplorer\emulator-5554\data\data\com.example.homework004_\databases\homework04.db" schema="" />
+            <file path="C:\Users\hp\Documents\AndroidStudio\DeviceExplorer\emulator-5554\data\data\com.example.homework004_\databases\user_al1.db" schema="" />
+          </files>
+          <type value="NONE" />
+          <user value="" />
+          <deprecated-pwd value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="false" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="default" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="2a4b133f-34be-4c33-992b-29fa8404c7d9" active="true">
+        <database>
+          <name value="Connection 1" />
+          <description value="" />
+          <database-type value="SQLITE" />
+          <config-type value="BASIC" />
+          <database-version value="3.21" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="FILE" />
+          <host value="localhost" />
+          <port value="1234" />
+          <database value="database" />
+          <files>
+            <file path="C:\Users\hp\Documents\AndroidStudio\DeviceExplorer\Pixel_2_API_25 [emulator-5554]\data\data\com.example.homework004_\databases\user.db" schema="main" />
+          </files>
+          <type value="NONE" />
+          <user value="" />
+          <deprecated-pwd value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="false" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="default" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="28fd9526-eee6-4bd2-9c4b-678a179df1ac" active="true">
+        <database>
+          <name value="Connection 2" />
+          <description value="" />
+          <database-type value="SQLITE" />
+          <config-type value="BASIC" />
+          <database-version value="3.21" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="FILE" />
+          <host value="localhost" />
+          <port value="1234" />
+          <database value="database" />
+          <files>
+            <file path="C:\Users\hp\Documents\AndroidStudio\DeviceExplorer\emulator-5554\data\data\com.example.homework004_\databases\homework04.db" schema="main" />
+          </files>
+          <type value="NONE" />
+          <user value="" />
+          <deprecated-pwd value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="false" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="default" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="bacea4a2-7431-4ff8-a74b-9011369212b7" active="true">
+        <database>
+          <name value="Connection 3" />
+          <description value="" />
+          <database-type value="SQLITE" />
+          <config-type value="BASIC" />
+          <database-version value="3.21" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="FILE" />
+          <host value="localhost" />
+          <port value="1234" />
+          <database value="database" />
+          <files>
+            <file path="C:\Users\hp\Documents\AndroidStudio\DeviceExplorer\Pixel_2_API_25 [emulator-5554]\data\data\com.example.homework004_\databases\homework04.db" schema="main" />
+          </files>
+          <type value="NONE" />
+          <user value="" />
+          <deprecated-pwd value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="false" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="default" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="4d396f7f-ea03-4f79-a3c8-cdb34b21112e" active="true">
+        <database>
+          <name value="Connection 4" />
+          <description value="" />
+          <database-type value="SQLITE" />
+          <config-type value="BASIC" />
+          <database-version value="3.21" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="FILE" />
+          <host value="localhost" />
+          <port value="1234" />
+          <database value="database" />
+          <files>
+            <file path="C:\Users\hp\Documents\AndroidStudio\DeviceExplorer\Pixel_2_API_25 [emulator-5554]\data\data\com.example.homework004_\databases\user_reg_login.db" schema="main" />
+          </files>
+          <type value="NONE" />
+          <user value="" />
+          <deprecated-pwd value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="false" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="default" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+    </connections>
     <browser-settings>
       <general>
         <display-mode value="TABBED" />

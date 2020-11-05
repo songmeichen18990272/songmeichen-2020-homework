@@ -10,13 +10,14 @@ import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
+import android.util.Log;
 
 import com.example.homework004_.bean.UserInfo;
 import com.example.homework004_.database.UserDBHelper;
 import com.example.homework004_.util.DateUtil;
 
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
-
+    private static final String TAG = "RegisterActivity"; //Log提示信息
     private UserDBHelper mHelper; // 声明一个用户数据库帮助器的对象
     private EditText et_name;
     private EditText et_age;
@@ -30,7 +31,6 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     private int mRequestCode = 0; // 跳转页面时的请求代码
     private int mType = 0; // 用户类型
     private boolean bRemember = false; // 是否记住密码
-    private String mPassword = "111111"; // 默认密码
     private String mVerifyCode; // 验证码
 
 
@@ -61,20 +61,40 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         }
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
+    protected void onStart() {
+
+        Log.d(TAG, "onStart: openLink");
+
+        super.onStart();
+
         // 获得数据库帮助器的实例
+
         mHelper = UserDBHelper.getInstance(this, 2);
+
         // 打开数据库帮助器的写连接
+
         mHelper.openWriteLink();
+
+        // 打开数据库帮助器的读连接
+
+        mHelper.openReadLink();
+
     }
 
+
+
     @Override
+
     protected void onStop() {
+
+        Log.d(TAG, "onStop: closeLink");
+
         super.onStop();
+
         // 关闭数据库连接
+
         mHelper.closeLink();
+
     }
 
     @Override
