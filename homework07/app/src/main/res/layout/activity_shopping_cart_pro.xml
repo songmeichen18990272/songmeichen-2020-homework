@@ -12,6 +12,7 @@
         android:visibility="gone"
         app:constraint_referenced_ids="lv_cart,ll_account,tv_name,tv_num,tv_photo,tv_price, tv_total" />
 
+
     <TextView
         android:id="@+id/tv_photo"
         android:layout_width="0dp"

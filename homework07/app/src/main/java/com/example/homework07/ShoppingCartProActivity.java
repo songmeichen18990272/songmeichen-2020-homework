@@ -245,9 +245,9 @@ public class ShoppingCartProActivity extends AppCompatActivity implements View.O
         // 给lv_cart设置商品列表适配器
         lv_cart.setAdapter(adapter);
         // 给lv_cart设置列表项点击监听器
-        lv_cart.setOnItemClickListener(this);
+        lv_cart.setOnItemClickListener(ShoppingCartProActivity.this);
         // 给lv_cart设置列表项长按监听器
-        lv_cart.setOnItemLongClickListener(this);
+        lv_cart.setOnItemLongClickListener(ShoppingCartProActivity.this);
 
         // 重新计算购物车中的商品总金额
         refreshTotalPrice();
