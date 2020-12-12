@@ -25,20 +25,20 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="51e5e5d6-d5a4-460a-bb29-d22d9c5c10b5">
-        <schema name="" object-types="index, table, constraint, dataset trigger, column, view" />
-        <schema name="main" object-types="index, table, constraint, dataset trigger, column, view" />
+        <schema name="" object-types="table, view" />
+        <schema name="main" object-types="table, view" />
       </connection>
       <connection connection-id="2a4b133f-34be-4c33-992b-29fa8404c7d9">
-        <schema name="main" object-types="index, table, constraint, dataset trigger, column, view" />
+        <schema name="main" object-types="table, view" />
       </connection>
       <connection connection-id="28fd9526-eee6-4bd2-9c4b-678a179df1ac">
-        <schema name="main" object-types="index, table, constraint, dataset trigger, column, view" />
+        <schema name="main" object-types="table, view" />
       </connection>
       <connection connection-id="bacea4a2-7431-4ff8-a74b-9011369212b7">
-        <schema name="main" object-types="index, table, constraint, dataset trigger, column, view" />
+        <schema name="main" object-types="table, view" />
       </connection>
       <connection connection-id="4d396f7f-ea03-4f79-a3c8-cdb34b21112e">
-        <schema name="main" object-types="index, table, constraint, dataset trigger, column, view" />
+        <schema name="main" object-types="table, view" />
       </connection>
     </loaded-nodes>
   </component>
